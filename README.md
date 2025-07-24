@@ -23,7 +23,7 @@ Files Included
 - `/artifacts/` – Extracted forensic artifacts
 
 ## Tools Used
-AdaptixC2 (COMMAND AND CONTROL
+AdaptixC2 (COMMAND AND CONTROL)
 Velociraptor
 VirtualBox / VMware
 Windows 10 VM + Kali Linux
