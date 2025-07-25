@@ -25,7 +25,7 @@ Files Included
 ## Tools Used
 AdaptixC2 (COMMAND AND CONTROL)
 Velociraptor
-VirtualBox / VMware
+VirtualBox
 Windows 10 VM + Kali Linux
 
 
