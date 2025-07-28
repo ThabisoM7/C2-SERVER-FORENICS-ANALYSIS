@@ -27,6 +27,7 @@ AdaptixC2 (COMMAND AND CONTROL)
 Velociraptor
 VirtualBox
 Windows 10 VM + Kali Linux
+DHCP config
 
 
 The agent successfully beaconed to the C2 server and established persistence via registry keys. Velociraptor hunts revealed malicious artifacts, execution timestamps, and supported timeline analysis
