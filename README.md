@@ -23,12 +23,12 @@ Files Included
 - `/artifacts/` – Extracted forensic artifacts
 
 ## Tools Used
-AdaptixC2 (COMMAND AND CONTROL)
-Velociraptor
-VirtualBox
-Windows 10 VM + Kali Linux
-DHCP config
-STIX ATTACK SEQUENCE MODEL
+AdaptixC2 (COMMAND AND CONTROL),
+Velociraptor,
+VirtualBox,
+Windows 10 VM + Kali Linux,
+DHCP config,
+STIX ATTACK SEQUENCE MODEL,
 Proxy Server Via Python config
 
 
