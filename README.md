@@ -1,6 +1,6 @@
  C2 (COMMAND AND CONTROL) FRAMEWORK FORENSIC ANALYSIS
 
-This repository documents a security lab simulation involving red team operations using a C2 (Command and Control) framework and blue team digital forensics using Velociraptor.
+This repository documents a lab simulation involving red team operations using a C2 (Command and Control) framework and blue team digital forensics using.
 
  Overview
 - Onboarded an agent using a C2 framework on a simulated Windows VM
