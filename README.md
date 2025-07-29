@@ -32,4 +32,4 @@ DHCP config
 
 The agent successfully beaconed to the C2 server and established persistence via registry keys. Velociraptor hunts revealed malicious artifacts, execution timestamps, and supported timeline analysis
 
-
+(DISCLAIMER: ALL THE WORK AND CONFIGURATIONS THAT HAVE TAKEN PLACE WITHIN THIS REPO ARE STRICTLY FOR EDUCATIONAL PURPOSES)
