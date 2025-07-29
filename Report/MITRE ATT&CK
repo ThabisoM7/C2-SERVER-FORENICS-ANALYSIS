@@ -1,8 +1,48 @@
-##Mapped MITRE ATT&CK Techniques
+Mapped MITRE ATT&CK Techniques
 
-Tactics, Techniques and Procedures that have been conducted as per MITRE ATT&CK Framework.
+Content Injection:
+Tactic: TA0011
+Technique: T1659
+Adversaries may gain access and continuously communicate with victims by injecting malicious content into systems through online network traffic
 
-- T1059.001 – PowerShell (Execution)
-- T1547.001 – Registry Run Keys (Persistence)
-- T1057 – Process Discovery
-- T1003 – Credential Dumping
+Web Traffic:
+Tactic: TA0011
+Technique: T1071.001
+Adversaries may communicate using application layer protocols associated with web traffic to avoid detection/network filtering by blending in with existing traffic. Commands to the remote system, and often the results of those commands, will be embedded within the protocol traffic between the client and server
+
+Phishing:
+Tactic: TA0043
+Technique: T1598
+
+Proxy Server:
+Tactic: TA0011
+Technique: T1090
+Adversaries may use a connection proxy to direct network traffic between systems or act as an intermediary for network communications to a command and control server to avoid direct connections to their infrastructure. Many tools exist that enable traffic redirection through proxies or port redirection, including HTRAN, ZXProxy, and ZXPortMap
+
+Application Layer Protocol:
+Tactic: TA0101
+Technique: T0869
+Adversaries may establish command and control capabilities over commonly used application layer protocols such as HTTP(S), OPC, RDP, telnet, DNP3, and modbus. These protocols may be used to disguise adversary actions as benign network traffic. Standard protocols may be seen on their associated port or in some cases over a non-standard port. Adversaries may use these protocols to reach out of the network for command and control, or in some cases to other infected devices within the network.
+
+Scheduled Task/Job:
+Tactic: TA0011
+Technique: T1053
+Adversaries may abuse task scheduling functionality to facilitate initial or recurring execution of malicious code. Utilities exist within all major operating systems to schedule programs or scripts to be executed at a specified date and time. A task can also be scheduled on a remote system, provided the proper authentication is met (ex: RPC and file and printer sharing in Windows environments). Scheduling a task on a remote system typically may require being a member of an admin or otherwise privileged group on the remote system.
+
+PowerShell Profile:
+Tactic: TA0003
+Technique: T1546.013
+Adversaries may gain persistence and elevate privileges by executing malicious content triggered by PowerShell profiles. A PowerShell profile (profile.ps1) is a script that runs when PowerShell starts and can be used as a logon script to customize user environments.
+
+Modify Registry:
+Tactic: TA0003
+Technique: T1112
+Adversaries may interact with the Windows Registry as part of a variety of other techniques to aid in defense evasion, persistence, and execution.
+Access to specific areas of the Registry depends on account permissions, with some keys requiring administrator-level access. The built-in Windows command-line utility Reg may be used for local or remote Registry modification.
+
+
+Process Discovery:
+Tactic: TA0007
+Technique: T1057
+Adversaries may attempt to get information about running processes on a system. Information obtained could be used to gain an understanding of common software/applications running on systems within the network. Administrator or otherwise elevated access may provide better process details. Adversaries may use the information from Process Discovery during automated discovery to shape follow-on behaviors, including whether or not the adversary fully infects the target and/or attempts specific actions.
+
