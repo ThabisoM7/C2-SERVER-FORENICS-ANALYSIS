@@ -2,8 +2,6 @@
 
 This repository documents a security lab simulation involving red team operations using a C2 (Command and Control) framework and blue team digital forensics using Velociraptor.
 
-
-
  Overview
 - Onboarded an agent using a C2 framework on a simulated Windows VM
 - Executed post-exploitation tasks (SHELLCODE EXECUTION, PROCESS LISTING AND PERSISTANCE MECHANISM)
@@ -17,7 +15,7 @@ This repository documents a security lab simulation involving red team operation
 - Blue team threat detection and response
 
 Files Included
-- `/report/` – Full written lab report (DOCX)
+- `/report/` – Full written lab report
 - `/LAB-SNAPSHOTS/` – Images of tasks, callbacks, Velociraptor queries
 - `/logs/` – Output logs from agent and Velociraptor
 - `/artifacts/` – Extracted forensic artifacts
