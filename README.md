@@ -14,7 +14,7 @@ This repository documents a lab simulation involving red team operations using a
 - Windows internals (processes, registry)
 - Blue team threat detection and response
 
-Files Included
+INDEX
 - `/report/` – Full written lab report
 - `/LAB-SNAPSHOTS/` – Images of tasks, callbacks, Velociraptor queries
 - `/logs/` – Output logs from agent and Velociraptor
