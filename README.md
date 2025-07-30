@@ -2,13 +2,13 @@
 
 This repository documents a lab simulation involving red team operations using a C2 (Command and Control) framework and blue team digital forensics using.
 
- Overview
+ OVERVIEW
 - Onboarded an agent using a C2 framework on a simulated Windows VM
 - Executed post-exploitation tasks (SHELLCODE EXECUTION, PROCESS LISTING AND PERSISTANCE MECHANISM)
 - Collected forensic artifacts via Velociraptor for investigation
 - Analyzed registry keys, event logs, and execution timelines
 
- Key Skills Demonstrated
+ KEY SKILLS
 - Command & Control operations
 - Endpoint forensics with Velociraptor
 - Windows internals (processes, registry)
