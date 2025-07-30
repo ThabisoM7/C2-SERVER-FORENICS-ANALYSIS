@@ -1,6 +1,6 @@
  C2 (COMMAND AND CONTROL) FRAMEWORK FORENSIC ANALYSIS
 
-This repository documents a lab simulation involving red team operations using a C2 (Command and Control) framework and blue team digital forensics using.
+This repository documents a lab simulation involving red team operations using a C2 (Command and Control) framework and blue team forensics
 
  OVERVIEW
 - Onboarded an agent using a C2 framework on a simulated Windows VM
