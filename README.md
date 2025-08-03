@@ -9,8 +9,8 @@ This repository documents a lab simulation involving red team operations using a
 - Analyzed registry keys, event logs, and execution timelines
 
  KEY SKILLS
-- Command & Control operations
-- Endpoint forensics with Velociraptor
+- Command & Control operation
+- Endpoint forensic analysis with Velociraptor
 - Windows internals (processes, registry)
 - Blue team threat detection and response
 
